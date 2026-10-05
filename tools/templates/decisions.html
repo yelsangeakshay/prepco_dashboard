@@ -1,0 +1,78 @@
+<title>Prep Co Decisions</title>
+<style>
+%%BASE%%
+.sec { padding-top: 48px; display: grid; gap: 16px; }
+.sec > p { color: var(--muted); max-width: 66ch; }
+.jump { display: flex; flex-wrap: wrap; gap: 8px; }
+.jump a { min-height: 44px; display: inline-flex; align-items: center; padding: 0 14px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); text-decoration: none; font-weight: 600; font-size: 14px; }
+.jump a:hover { border-color: var(--accent); }
+.decs { display: grid; gap: 12px; }
+.dec { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 14px; padding: 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.dec .n { width: 36px; height: 36px; border-radius: 999px; background: var(--wine); color: var(--on-wine); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-variant-numeric: tabular-nums; }
+.dec h3 { font-size: 1.0625rem; font-weight: 600; font-family: var(--sans); text-wrap: balance; }
+.dec .body { display: grid; gap: 8px; min-width: 0; }
+.dec .prop { color: var(--muted); max-width: 68ch; }
+.dec .prop b { color: var(--ink); font-weight: 600; }
+.dec .meta { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; font-size: 0.8125rem; color: var(--muted); }
+.grp { display: grid; gap: 4px; padding-top: 12px; }
+.grp h3 { font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); font-family: var(--sans); padding-bottom: 6px; }
+.case { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; gap: 12px; align-items: start; padding: 12px 0; border-top: 1px solid var(--line); }
+.case p { max-width: 70ch; }
+.prio { display: inline-flex; justify-content: center; font-size: 11px; font-weight: 700; padding: 2px 0; width: 36px; border-radius: 999px; font-variant-numeric: tabular-nums; }
+.prio.p0 { background: var(--wine); color: var(--on-wine); }
+.prio.p1 { background: var(--stu-bg); color: var(--stu-fg); }
+.prio.p2 { background: var(--chip); color: var(--muted); }
+.state { font-size: 12px; font-weight: 600; white-space: nowrap; }
+.state.ok { color: var(--ok-fg); }
+.state.no { color: var(--muted); }
+.todo { display: grid; gap: 8px; }
+.todo li { display: grid; grid-template-columns: 20px minmax(0, 1fr); gap: 10px; color: var(--muted); max-width: 70ch; }
+.todo li::before { content: ''; width: 12px; height: 12px; margin-top: 6px; border: 2px solid var(--line); border-radius: 3px; }
+.order { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); }
+.step { padding: 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); display: grid; gap: 6px; align-content: start; }
+.step b { font-family: var(--display); font-size: 1.25rem; }
+.step p { color: var(--muted); }
+@media (max-width: 560px) { .case { grid-template-columns: 44px minmax(0, 1fr); } .case .state { grid-column: 2; } .dec { grid-template-columns: 36px minmax(0, 1fr); gap: 10px; padding: 14px; } .dec .n { width: 32px; height: 32px; } }
+</style>
+
+<div class="wrap">
+  %%NAV%%
+  <header class="top">
+    <p class="eyebrow">Decisions · version 1</p>
+    <h1>What we still need to decide</h1>
+    <p class="lede">The mockups had to assume a few things the website never states. Each decision below shows what the screens assume and where it appears. Edge cases and what is not designed yet follow.</p>
+    <nav class="jump" aria-label="On this page"><a href="#decisions">%%D%% decisions</a><a href="#edge">Edge cases</a><a href="#todo">Not designed yet</a><a href="#order">Build order</a></nav>
+  </header>
+
+  <section class="sec" id="decisions">
+    <h2>Open decisions</h2>
+    <p>Anything tagged Proposed in a screen comes from this list. Answer these and the screens can be finalised.</p>
+    <ol class="decs">
+%%DECISIONS%%
+    </ol>
+  </section>
+
+  <section class="sec" id="edge">
+    <h2>Edge cases</h2>
+    <p>P0 blocks a launch, P1 should be in the first release, P2 can follow. Cases marked Designed link to the journey that shows them.</p>
+%%EDGE%%
+  </section>
+
+  <section class="sec" id="todo">
+    <h2>Not designed yet</h2>
+    <ul class="todo">
+%%TODO%%
+    </ul>
+  </section>
+
+  <section class="sec" id="order">
+    <h2>Recommended build order</h2>
+    <div class="order">
+%%ORDER%%
+    </div>
+  </section>
+
+  <footer class="foot">
+    <p>Screens marked Proposed use sample figures and policies made up for the mockups. They are not commitments.</p>
+  </footer>
+</div>

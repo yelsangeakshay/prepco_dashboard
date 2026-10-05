@@ -1,0 +1,62 @@
+<title>Prep Co App Mockups</title>
+<style>
+%%BASE%%
+.hero { padding-block: 56px 32px; display: grid; gap: 22px; }
+.cards { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); padding-block: 8px 24px; }
+.hub { display: grid; gap: 10px; align-content: start; padding: 22px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--ink); text-decoration: none; box-shadow: var(--shadow); min-height: 44px; }
+.hub:hover { border-color: var(--accent); }
+.hub h2 { font-size: 1.5rem; }
+.hub p { color: var(--muted); }
+.hub .go { font-weight: 600; color: var(--accent); margin-top: 6px; }
+.hub .n { font-family: var(--display); font-weight: 700; font-size: 2.5rem; line-height: 1; font-variant-numeric: tabular-nums; }
+.strip { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); align-items: start; padding-block: 8px 8px; }
+.strip a { display: grid; gap: 8px; color: var(--ink); text-decoration: none; font-size: 0.875rem; font-weight: 600; }
+.strip img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); background: var(--surface); }
+.strip a:hover img { border-color: var(--accent); }
+.how { display: grid; gap: 12px; padding-top: 36px; }
+.how ol { display: grid; gap: 10px; counter-reset: s; }
+.how li { counter-increment: s; display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 12px; align-items: start; }
+.how li::before { content: counter(s); width: 28px; height: 28px; border-radius: 999px; background: var(--wine); color: var(--on-wine); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; }
+.how li p { color: var(--muted); }
+.how li b { color: var(--ink); }
+</style>
+
+<div class="wrap">
+  %%NAV%%
+  <header class="hero">
+    <p class="eyebrow">Mockups · version 1</p>
+    <h1>The Prep Co app, before it is built</h1>
+    <p class="lede">%%TOTAL%% screens for students, panelists and the ops team, the %%J%% journeys that connect them, and the decisions still open. Start with the journeys.</p>
+    <div class="stats" aria-label="Contents">
+      <div class="stat"><b>%%TOTAL%%</b><span>screens</span></div>
+      <div class="stat"><b>%%J%%</b><span>journeys</span></div>
+      <div class="stat"><b>3</b><span>roles</span></div>
+      <div class="stat"><b>%%D%%</b><span>open decisions</span></div>
+    </div>
+  </header>
+
+  <section class="cards" aria-label="Sections">
+    <a class="hub" href="/journeys/"><span class="n">%%J%%</span><h2>Journey maps</h2><p>Every path through the app as a numbered sequence of real screens, from the first click to Day 0, including what happens when things go wrong.</p><span class="go">Open the journeys →</span></a>
+    <a class="hub" href="/gallery/"><span class="n">%%TOTAL%%</span><h2>All screens</h2><p>Each mockup at full size, grouped by role, with the phone layouts and the edge-case screens.</p><span class="go">Browse the screens →</span></a>
+    <a class="hub" href="/decisions/"><span class="n">%%D%%</span><h2>Decisions</h2><p>The policies and numbers the mockups assume but the website never states, the edge cases they affect and what is not designed yet.</p><span class="go">See what is open →</span></a>
+  </section>
+
+  <section aria-label="Preview" class="strip">
+%%STRIP%%
+  </section>
+
+  <section class="how">
+    <h2>How to read this</h2>
+    <ol>
+      <li><p><b>Start with a journey.</b> Pick a path, such as Join and buy a plan, and tap through its steps.</p></li>
+      <li><p><b>Open a screen full size</b> to read the detail. The arrow keys or a swipe move to the next step.</p></li>
+      <li><p><b>Check the decisions</b> before the build. Anything tagged Proposed is a guess we need confirmed.</p></li>
+    </ol>
+    <p class="legend"><span><span class="role student">Student</span><span class="role panelist">Panelist</span><span class="role admin">Admin</span></span><span><span class="tag">Proposed</span> a policy the website does not state yet</span><span><span class="tag">Sample data</span> made-up figures</span></p>
+  </section>
+
+  <footer class="foot">
+    <p>People in the sample: Riya Kulkarni (student, Premium, finals), Arjun Mehta (Marketing &amp; Brand panelist) and the ops team. Dates assume today is Monday 5 October 2026 and Day 0 is Monday 9 November.</p>
+    <p>Colors, fonts and radii come from theprep.co.in. Prices and seat counts are the Season 1 figures on the site.</p>
+  </footer>
+</div>

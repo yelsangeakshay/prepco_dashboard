@@ -1,0 +1,586 @@
+[
+ {
+  "slug": "cover",
+  "code": "Cover",
+  "mobile": false,
+  "title": "Theme & components",
+  "tags": [],
+  "section": "overview",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 1083
+ },
+ {
+  "slug": "review",
+  "code": "Review",
+  "mobile": false,
+  "title": "Coverage, edge cases & decisions",
+  "tags": [],
+  "section": "overview",
+  "cssw": 2960,
+  "tw": 1000,
+  "th": 527
+ },
+ {
+  "slug": "s01",
+  "code": "S1",
+  "mobile": false,
+  "title": "Sign in / sign up",
+  "tags": [],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 625
+ },
+ {
+  "slug": "s02",
+  "code": "S2",
+  "mobile": false,
+  "title": "Onboarding (step 2 of 3)",
+  "tags": [],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 694
+ },
+ {
+  "slug": "s03",
+  "code": "S3",
+  "mobile": false,
+  "title": "Free session: booked + summary",
+  "tags": [],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 939
+ },
+ {
+  "slug": "s04",
+  "code": "S4",
+  "mobile": false,
+  "title": "Choose plan + checkout",
+  "tags": [
+   "Proposed"
+  ],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 954
+ },
+ {
+  "slug": "s05",
+  "code": "S5",
+  "mobile": false,
+  "title": "Dashboard home",
+  "tags": [],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 938
+ },
+ {
+  "slug": "s06",
+  "code": "S6",
+  "mobile": false,
+  "title": "CV Builder: editor",
+  "tags": [],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 903
+ },
+ {
+  "slug": "s07",
+  "code": "S7",
+  "mobile": false,
+  "title": "CV versions",
+  "tags": [],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 729
+ },
+ {
+  "slug": "s08",
+  "code": "S8",
+  "mobile": false,
+  "title": "HR Question Builder",
+  "tags": [],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 903
+ },
+ {
+  "slug": "s09",
+  "code": "S9",
+  "mobile": false,
+  "title": "Sessions & runway",
+  "tags": [],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 903
+ },
+ {
+  "slug": "s10",
+  "code": "S10",
+  "mobile": false,
+  "title": "Panel feedback report",
+  "tags": [],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 938
+ },
+ {
+  "slug": "s11",
+  "code": "S11",
+  "mobile": false,
+  "title": "Journey & routes",
+  "tags": [],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 799
+ },
+ {
+  "slug": "s12",
+  "code": "S12",
+  "mobile": false,
+  "title": "Case competition track (Elite)",
+  "tags": [],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 729
+ },
+ {
+  "slug": "s13",
+  "code": "S13",
+  "mobile": false,
+  "title": "Quick Switch",
+  "tags": [],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 729
+ },
+ {
+  "slug": "s14",
+  "code": "S14",
+  "mobile": false,
+  "title": "Plan & billing",
+  "tags": [
+   "Proposed"
+  ],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 891
+ },
+ {
+  "slug": "s15",
+  "code": "S15",
+  "mobile": false,
+  "title": "Profile & continuity",
+  "tags": [],
+  "section": "student",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 799
+ },
+ {
+  "slug": "s01-mobile",
+  "code": "S1",
+  "mobile": true,
+  "title": "Sign in / sign up",
+  "tags": [],
+  "section": "student",
+  "cssw": 390,
+  "tw": 480,
+  "th": 1039
+ },
+ {
+  "slug": "s02-mobile",
+  "code": "S2",
+  "mobile": true,
+  "title": "Onboarding (step 2 of 3)",
+  "tags": [],
+  "section": "student",
+  "cssw": 390,
+  "tw": 480,
+  "th": 1039
+ },
+ {
+  "slug": "s03-mobile",
+  "code": "S3",
+  "mobile": true,
+  "title": "Free session: booked + summary",
+  "tags": [],
+  "section": "student",
+  "cssw": 390,
+  "tw": 480,
+  "th": 1039
+ },
+ {
+  "slug": "s05-mobile",
+  "code": "S5",
+  "mobile": true,
+  "title": "Dashboard home",
+  "tags": [],
+  "section": "student",
+  "cssw": 390,
+  "tw": 480,
+  "th": 1039
+ },
+ {
+  "slug": "s06-mobile",
+  "code": "S6",
+  "mobile": true,
+  "title": "CV Builder: editor",
+  "tags": [],
+  "section": "student",
+  "cssw": 390,
+  "tw": 480,
+  "th": 1039
+ },
+ {
+  "slug": "s08-mobile",
+  "code": "S8",
+  "mobile": true,
+  "title": "HR Question Builder",
+  "tags": [],
+  "section": "student",
+  "cssw": 390,
+  "tw": 480,
+  "th": 1039
+ },
+ {
+  "slug": "s09-mobile",
+  "code": "S9",
+  "mobile": true,
+  "title": "Sessions & runway",
+  "tags": [],
+  "section": "student",
+  "cssw": 390,
+  "tw": 480,
+  "th": 1039
+ },
+ {
+  "slug": "s10-mobile",
+  "code": "S10",
+  "mobile": true,
+  "title": "Panel feedback report",
+  "tags": [],
+  "section": "student",
+  "cssw": 390,
+  "tw": 480,
+  "th": 1039
+ },
+ {
+  "slug": "s14-mobile",
+  "code": "S14",
+  "mobile": true,
+  "title": "Plan & billing",
+  "tags": [
+   "Proposed"
+  ],
+  "section": "student",
+  "cssw": 390,
+  "tw": 480,
+  "th": 1039
+ },
+ {
+  "slug": "p01",
+  "code": "P1",
+  "mobile": false,
+  "title": "Become a panelist: apply",
+  "tags": [],
+  "section": "panelist",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 729
+ },
+ {
+  "slug": "p02",
+  "code": "P2",
+  "mobile": false,
+  "title": "Panelist home",
+  "tags": [],
+  "section": "panelist",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 799
+ },
+ {
+  "slug": "p03",
+  "code": "P3",
+  "mobile": false,
+  "title": "Pre-panel brief",
+  "tags": [],
+  "section": "panelist",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 938
+ },
+ {
+  "slug": "p04",
+  "code": "P4",
+  "mobile": false,
+  "title": "Live scoring",
+  "tags": [
+   "Proposed"
+  ],
+  "section": "panelist",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 938
+ },
+ {
+  "slug": "p05",
+  "code": "P5",
+  "mobile": false,
+  "title": "Availability & sessions",
+  "tags": [],
+  "section": "panelist",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 729
+ },
+ {
+  "slug": "p02-mobile",
+  "code": "P2",
+  "mobile": true,
+  "title": "Panelist home",
+  "tags": [],
+  "section": "panelist",
+  "cssw": 390,
+  "tw": 480,
+  "th": 1039
+ },
+ {
+  "slug": "p03-mobile",
+  "code": "P3",
+  "mobile": true,
+  "title": "Pre-panel brief",
+  "tags": [],
+  "section": "panelist",
+  "cssw": 390,
+  "tw": 480,
+  "th": 1039
+ },
+ {
+  "slug": "a01",
+  "code": "A1",
+  "mobile": false,
+  "title": "Cohort overview",
+  "tags": [
+   "Sample data"
+  ],
+  "section": "admin",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 868
+ },
+ {
+  "slug": "a02",
+  "code": "A2",
+  "mobile": false,
+  "title": "Students",
+  "tags": [],
+  "section": "admin",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 799
+ },
+ {
+  "slug": "a03",
+  "code": "A3",
+  "mobile": false,
+  "title": "Panel assignment",
+  "tags": [],
+  "section": "admin",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 799
+ },
+ {
+  "slug": "a04",
+  "code": "A4",
+  "mobile": false,
+  "title": "Sessions & bookings",
+  "tags": [],
+  "section": "admin",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 764
+ },
+ {
+  "slug": "a05",
+  "code": "A5",
+  "mobile": false,
+  "title": "Plans, top-ups & credits",
+  "tags": [],
+  "section": "admin",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 764
+ },
+ {
+  "slug": "a06",
+  "code": "A6",
+  "mobile": false,
+  "title": "Panelist roster",
+  "tags": [],
+  "section": "admin",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 799
+ },
+ {
+  "slug": "a01-mobile",
+  "code": "A1",
+  "mobile": true,
+  "title": "Cohort overview",
+  "tags": [
+   "Sample data"
+  ],
+  "section": "admin",
+  "cssw": 390,
+  "tw": 480,
+  "th": 1039
+ },
+ {
+  "slug": "e01",
+  "code": "E1",
+  "mobile": false,
+  "title": "Forgot password \u00b7 verify college email",
+  "tags": [],
+  "section": "edge",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 625
+ },
+ {
+  "slug": "e02",
+  "code": "E2",
+  "mobile": false,
+  "title": "CV upload: reading, done, failed + consent",
+  "tags": [],
+  "section": "edge",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 694
+ },
+ {
+  "slug": "e03",
+  "code": "E3",
+  "mobile": false,
+  "title": "Late joiner: compressed runway",
+  "tags": [],
+  "section": "edge",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 729
+ },
+ {
+  "slug": "e04",
+  "code": "E4",
+  "mobile": false,
+  "title": "Payment failed \u00b7 payment success",
+  "tags": [],
+  "section": "edge",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 694
+ },
+ {
+  "slug": "e05",
+  "code": "E5",
+  "mobile": false,
+  "title": "Seats full \u2192 waitlist",
+  "tags": [],
+  "section": "edge",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 660
+ },
+ {
+  "slug": "e06",
+  "code": "E6",
+  "mobile": false,
+  "title": "Panelist cancels \u00b7 reschedule \u00b7 no-show",
+  "tags": [],
+  "section": "edge",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 764
+ },
+ {
+  "slug": "e07",
+  "code": "E7",
+  "mobile": false,
+  "title": "Day 0 outcome: placed / not placed",
+  "tags": [],
+  "section": "edge",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 799
+ },
+ {
+  "slug": "e08",
+  "code": "E8",
+  "mobile": false,
+  "title": "Upgrade with top-up credit",
+  "tags": [],
+  "section": "edge",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 694
+ },
+ {
+  "slug": "e09",
+  "code": "E9",
+  "mobile": false,
+  "title": "Target role change \u2192 new panel",
+  "tags": [],
+  "section": "edge",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 694
+ },
+ {
+  "slug": "e10",
+  "code": "E10",
+  "mobile": false,
+  "title": "Notifications (incl. Day 0 moved)",
+  "tags": [],
+  "section": "edge",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 694
+ },
+ {
+  "slug": "e11",
+  "code": "E11",
+  "mobile": false,
+  "title": "Returning student: summers \u2192 finals",
+  "tags": [],
+  "section": "edge",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 729
+ },
+ {
+  "slug": "e12",
+  "code": "E12",
+  "mobile": false,
+  "title": "First login, nothing booked",
+  "tags": [],
+  "section": "edge",
+  "cssw": 1440,
+  "tw": 1000,
+  "th": 694
+ }
+]

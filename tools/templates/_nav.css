@@ -1,0 +1,8 @@
+.sn { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 20px; padding-block: 14px; border-bottom: 1px solid var(--line); }
+.sn-brand { display: inline-flex; align-items: center; gap: 6px; font-weight: 800; font-size: 14px; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+.sn-brand b { color: var(--accent); font-size: 22px; font-weight: 700; line-height: 1; }
+.sn-brand span { font-weight: 500; text-transform: none; color: var(--muted); margin-left: 6px; font-size: 13px; }
+.sn-links { display: flex; gap: 4px; flex-wrap: wrap; }
+.sn-links a { min-height: 44px; display: inline-flex; align-items: center; padding: 0 12px; border-radius: 8px; color: var(--ink); text-decoration: none; font-weight: 600; font-size: 14px; }
+.sn-links a:hover { background: var(--chip); }
+.sn-links a[aria-current="page"] { background: var(--wine); color: var(--on-wine); }
