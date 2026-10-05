@@ -1,0 +1,18 @@
+.pg-home .hero { padding-block: 56px 32px; display: grid; gap: 22px; }
+.pg-home .cards { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); padding-block: 8px 24px; }
+.pg-home .hub { display: grid; gap: 10px; align-content: start; padding: 22px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--ink); text-decoration: none; box-shadow: var(--shadow); min-height: 44px; }
+.pg-home .hub:hover { border-color: var(--accent); }
+.pg-home .hub h2 { font-size: 1.5rem; }
+.pg-home .hub p { color: var(--muted); }
+.pg-home .hub .go { font-weight: 600; color: var(--accent); margin-top: 6px; }
+.pg-home .hub .n { font-family: var(--display); font-weight: 700; font-size: 2.5rem; line-height: 1; font-variant-numeric: tabular-nums; }
+.pg-home .strip { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); align-items: start; padding-block: 8px 8px; }
+.pg-home .strip a { display: grid; gap: 8px; color: var(--ink); text-decoration: none; font-size: 0.875rem; font-weight: 600; }
+.pg-home .strip img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); background: var(--surface); }
+.pg-home .strip a:hover img { border-color: var(--accent); }
+.pg-home .how { display: grid; gap: 12px; padding-top: 36px; }
+.pg-home .how ol { display: grid; gap: 10px; counter-reset: s; }
+.pg-home .how li { counter-increment: s; display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 12px; align-items: start; }
+.pg-home .how li::before { content: counter(s); width: 28px; height: 28px; border-radius: 999px; background: var(--wine); color: var(--on-wine); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; }
+.pg-home .how li p { color: var(--muted); }
+.pg-home .how li b { color: var(--ink); }
